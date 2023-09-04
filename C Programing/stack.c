@@ -32,6 +32,7 @@ int main()
         printf("stack is underflow\n");
     }
     else{
+        printf("the popped element is: %d\n",stack_arr[top]);
         top--;
     }
     
